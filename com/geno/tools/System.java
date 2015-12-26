@@ -14,4 +14,12 @@ public class System
 		o.writeBytes((string2 + "\nexit\n"));
 		o.flush();
 	}
+	
+	public static final void execSu(String cmd) throws IOException
+	{
+		java.lang.Process process = Runtime.getRuntime.exec("su");
+		DataOutputStream o = new DataOutputStream(process.getOutputStream());
+		o.writeBytes(cmd + "\nexit\n"));
+		o.flush();
+	}
 }
