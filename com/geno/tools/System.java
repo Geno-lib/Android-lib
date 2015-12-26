@@ -1,6 +1,14 @@
 package com.geno.tools;
 
+import android.os.*;
+import android.app.*;
+import android.view.*;
+import android.util.*;
+import android.content.*;
+
 import java.io.*;
+import java.text.*;
+import java.util.*;
 
 public class System
 {

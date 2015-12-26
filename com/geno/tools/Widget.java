@@ -1,5 +1,11 @@
 package com.geno.tools;
 
+import android.app.*;
+import android.widget.*;
+import android.content.*;
+
+import java.util.*;
+
 public class Widget
 {
 	public static void Toast(String text, Context context)
